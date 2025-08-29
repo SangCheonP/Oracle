@@ -1,7 +1,7 @@
-# MERGE 문 (Oracle)
+# MERGE (Oracle)
 
 ```
-Oracle의 MERGE 문은 하나의 쿼리문으로 INSERT, UPDATE, DELETE 작업을 해야하는 경우에 유용하다.
+Oracle의 MERGE 는 하나의 쿼리문으로 INSERT, UPDATE, DELETE 작업을 해야하는 경우에 유용하다.
 즉, 조건에 따라 UPDATE, INSERT, DELETE 작업을 하나의 쿼리로 수행할 수 있다.
 ```
 
