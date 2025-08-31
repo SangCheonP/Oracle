@@ -14,6 +14,15 @@
 ### DML
 - [MERGE](./DML/MERGE.md)
 
+### DCL
+- [GRANT](/DCL/GRANT.md)
+- [REVOKE](/DCL/REVOKE.md)
+- [권한 확인](/DCL/권한%20확인.md)
+
+### DATE
+- [날짜 함수](/DATE/Function.md)
+- [날짜 포맷](/DATE/Format.md)
+
 ### PL/SQL
 - [PL/SQL](./PLSQL/PLSQL.md)
 
