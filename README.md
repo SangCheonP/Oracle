@@ -29,13 +29,37 @@
 - [LIKE / REGEXP_LIKE](./LIKE%20&%20REGEXP_LIKE.md)
 - [윈도우 함수(Window Function)](./Window%20Function.md)
 
-### DML
-- [MERGE](./DML/MERGE.md)
+### DDL
+<details>
+  <summary>테이블/컬럼/제약조건 수정</summary>
+  <ul>
+    <li><a href="/DDL/테이블_컬럼_제약조건_수정.md#1-컬럼-추가-add">컬럼 추가 (ADD)</a></li>
+    <li><a href="/DDL/테이블_컬럼_제약조건_수정.md#2-컬럼-수정-modify">컬럼 수정 (MODIFY)</a></li>
+    <li><a href="/DDL/테이블_컬럼_제약조건_수정.md#3-컬럼-이름-변경-rename-column">컬럼 이름 변경 (RENAME COLUMN)</a></li>
+    <li><a href="/DDL/테이블_컬럼_제약조건_수정.md#4-컬럼-삭제-drop-column">컬럼 삭제 (DROP COLUMN)</a></li>
+    <li><a href="/DDL/테이블_컬럼_제약조건_수정.md#5-제약조건-추가-add-constraint">제약조건 추가 (ADD CONSTRAINT)</a></li>
+    <li><a href="/DDL/테이블_컬럼_제약조건_수정.md#6-제약조건-수정--삭제">제약조건 수정 / 삭제</a></li>
+    <li><a href="/DDL/테이블_컬럼_제약조건_수정.md#7-테이블-이름-변경">테이블 이름 변경</a></li>
+  </ul>
+</details>
 
 ### DCL
 - [GRANT](/DCL/GRANT.md)
 - [REVOKE](/DCL/REVOKE.md)
 - [권한 확인](/DCL/권한%20확인.md)
+
+<details>
+  <summary>MERGE</summary>
+  <ul>
+    <li><a href="./DCL/MERGE.md#1-기본-문법">1. 기본 문법</a></li>
+    <li><a href="./DCL/MERGE.md#2-예제">2. 예제</a></li>
+    <li><a href="./DCL/MERGE.md#21-단일-데이터">2.1 단일 데이터</a></li>
+    <li><a href="./DCL/MERGE.md#22-조건부-updateinsert">2.2 조건부 UPDATE/INSERT</a></li>
+    <li><a href="./DCL/MERGE.md#23-insert--update--delete-통합-예제">2.3 INSERT / UPDATE / DELETE 통합 예제</a></li>
+    <li><a href="./DCL/MERGE.md#3-주의-사항-">3. 주의 사항 ❌</a></li>
+    <li><a href="./DCL/MERGE.md#31-on-조건-컬럼-업데이트-시-오류">3.1 ON 조건 컬럼 업데이트 시 오류</a></li>
+  </ul>
+</details>
 
 ### DATE
 <details>
@@ -52,7 +76,17 @@
   </ul>
 </details>
 
-- [날짜 포맷](/DATE/Format.md)
+<details>
+  <summary>날짜 포맷</summary>
+  <ul>
+    <li><a href="/DATE/Format.md#1-연도-year">연도 (Year)</a></li>
+    <li><a href="/DATE/Format.md#2-월-month">월 (Month)</a></li>
+    <li><a href="/DATE/Format.md#3-일-day">일 (Day)</a></li>
+    <li><a href="/DATE/Format.md#4-시간-hourminutesecond">시간 (Hour/Minute/Second)</a></li>
+    <li><a href="/DATE/Format.md#5-특수-포맷">특수 포맷</a></li>
+    <li><a href="/DATE/Format.md#-사용-예제">📌 사용 예제</a></li>
+  </ul>
+</details>
 
 ### String
 <details>

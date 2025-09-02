@@ -7,7 +7,7 @@ Oracle의 MERGE 는 하나의 쿼리문으로 INSERT, UPDATE, DELETE 작업을 �
 
 <br>
 
-## ✅ 기본 문법
+## 1. 기본 문법
 ```sql
 MERGE INTO 대상테이블 t -- {테이블|뷰}
 USING (
@@ -26,8 +26,8 @@ WHEN NOT MATCHED THEN -- 불일치 INSERT
 
 <br>
 
-## ✅ 예제
-### 단일 데이터
+## 2. 예제
+### 2.1 단일 데이터
 ```sql
 MERGE INTO EMP e
 USING TEMP_EMP t
@@ -40,7 +40,7 @@ WHEN NOT MATCHED THEN
     VALUES (t.EMP_ID, t.NAME, t.SALARY, t.DEPARTMENT);
 ```
 
-### 조건부 UPDATE/INSERT
+### 2.2 조건부 UPDATE/INSERT
 ```sql
 MERGE INTO PRODUCTS p
 USING NEW_PRODUCTS np
@@ -56,7 +56,7 @@ WHEN NOT MATCHED THEN
 `PRODUCTS` 테이블에 `NEW_PRODUCTS` 데이터를 비교해 **같은 상품은 가격만 조건부 업데이트하고, 없는 상품은 재고 조건에 따라 새로 삽입**하는 MERGE 문
 
 
-### INSERT / UPDATE / DELETE 통합 예제
+### 2.3 INSERT / UPDATE / DELETE 통합 예제
 ```sql
 MERGE INTO PRODUCTS p
 USING NEW_PRODUCTS np
@@ -74,8 +74,8 @@ WHEN NOT MATCHED THEN
 
 <br>
 
-## ❌ 주의 사항
-### ON 조건 컬럼 업데이트 시, 오류
+## 3. 주의 사항 ❌
+### 3.1 ON 조건 컬럼 업데이트 시, 오류
 ```sql
 -- PRODUCTS 테이블: PROD_ID(PK), NAME, PRICE
 MERGE INTO PRODUCTS p
