@@ -109,3 +109,14 @@
 ### PL/SQL
 - [PL/SQL](./PLSQL/PLSQL.md)
 
+
+### 함수
+<details>
+    <summary>NULL 관련 함수</summary>
+    <ul>
+        <li><a href="./NVL.md#1-nvl-—-null이면-대체값-반환">NVL</a></li>
+        <li><a href="./NVL.md#2-nvl2-—-null-여부에-따라-다른-값-반환">NVL2</a></li>
+        <li><a href="./NVL.md#3-nullif-—-두-값이-같으면-null">NULLIF</a></li>
+        <li><a href="./NVL.md#4-coalesce-—-여러-값-중-첫-번째-not-null-반환">COALESCE</a></li>
+    </ul>
+</details>
